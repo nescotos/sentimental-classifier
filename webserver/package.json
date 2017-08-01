@@ -1,0 +1,26 @@
+{
+  "name": "webserver",
+  "version": "1.0.0",
+  "description": "Sentimental Analysis Predictor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sentimental",
+    "analysis",
+    "python",
+    "nodejs",
+    "machine",
+    "learning"
+  ],
+  "author": "Néstor Escoto",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0",
+    "zerorpc": "^0.9.6"
+  }
+}
