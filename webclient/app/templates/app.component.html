@@ -1,0 +1,8 @@
+<h1>Welcome to our Sentimental Classifier</h1>
+<textarea [(ngModel)]='sentence' placeholder="Introduce your sentence" rows="2" cols="100"></textarea><br>
+<button (click)="predictSentence()" type="submit">Predict</button><br><br><br>
+<div *ngIf="prediction">
+  <h4>Prediction: </h4> {{prediction}}
+  <h3>Probability of positive: </h3> {{prob_positive}}
+  <h3>Probability of negative: </h3> {{prob_negative}}
+</div>
